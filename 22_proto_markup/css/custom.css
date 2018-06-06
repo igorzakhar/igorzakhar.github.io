@@ -1,0 +1,73 @@
+html {
+  font-size: 18px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 18px;
+  }
+}
+
+.container {
+  max-width: 960px;
+}
+
+.request-form-header {
+  max-width: 650px;
+}
+
+.card-deck .card {
+  min-width: 220px;
+}
+
+.border-top { border-top: 1px solid #e5e5e5; }
+/*.border-bottom { border-bottom: 1px solid #e5e5e5; }*/
+
+.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+
+.nav-link {
+  text-decoration: underline;
+}
+
+.nav-link:focus, .nav-link:hover {
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+.nav-scroller {
+  max-width: 750px;
+}
+
+.btn-group-lg>.btn, .btn-lg {
+  border-radius: 3rem;
+}
+
+.btn-group-sm>.btn, .btn-sm {
+    border-radius: 1rem;
+}
+
+.link {
+  text-decoration: underline;
+}
+
+.btn-secondary {
+  border-radius: .4rem;
+}
+
+.fa-chevron-left, .fa-chevron-right {
+  color: black;
+  font-size: 30px;
+}
+
+.carousel-control-prev {
+    left: -65px;
+}
+
+.carousel-control-next {
+    right: -65px;
+}
+
